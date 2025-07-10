@@ -41,7 +41,7 @@ cd todo
 2. Создай файл .env в корне проекта и задай в нём переменные окружения из файла .env.sample  
 3. Собери и запусти контейнеры:  
 ```
-docker-compose up --build
+docker-compose up -d --build
 ```
 
 4. Приложение будет доступно по адресу: http://localhost:8000
